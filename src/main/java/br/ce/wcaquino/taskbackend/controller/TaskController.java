@@ -46,10 +46,10 @@ public class TaskController {
 		return new ResponseEntity<Task>(saved, HttpStatus.CREATED);
 	}
 	 
-	@DeleteMapping(value = "/{id}")
-	@ResponseStatus(code = HttpStatus.NO_CONTENT)
-	public void delete(@PathVariable Long id) {
-		todoRepo.deleteById(id);
-	}
-	
+//	@DeleteMapping(value = "/{id}")
+//	@ResponseStatus(code = HttpStatus.NO_CONTENT)
+//	public void delete(@PathVariable Long id) {
+//		todoRepo.deleteById(id);
+//	}
+
 }
